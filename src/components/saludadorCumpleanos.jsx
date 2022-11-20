@@ -1,6 +1,6 @@
-const SaludadorCumpleanos = ()=>{
+const SaludadorCumpleanos = ({nombre, edad})=>{
     return(
-        <h2>Feliz cumpleanos NOMBRE, que disfrutes tus EDADES</h2>
+        <h2>Feliz cumpleanos {nombre}, que disfrutes tus {edad}</h2>
 
     )
 }
